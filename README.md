@@ -61,7 +61,7 @@ This repo is licensed under the CC0 1.0 license (basically publice
 domain), which you can read in the `LICENSE.md` file
 [here](./LICENSE.md).
 
-## Constributing
+## Contributing
 Please report any mistakes or errors you find in the issues section.
 Feel free to open PRs too, and I'll take a look at them.
 
