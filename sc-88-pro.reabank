@@ -1,3 +1,8 @@
+// SC-88 Pro Reabank File v0.1.0
+// Obtained from https://github.com/SpeedyVelcro/sc-88-pro-reabank
+// This file is licensed under CC0 1.0
+// You can read the license at https://creativecommons.org/publicdomain/zero/1.0/
+
 // The terminology "capital instruments", "variations" are defined by
 // the SC-88 Pro Owner's Manual pg. 21 and pg. 126. The terminology
 // "drum set" is established on pg. 128. The terminology "user
