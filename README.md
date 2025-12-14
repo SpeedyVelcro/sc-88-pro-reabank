@@ -16,8 +16,10 @@ allowing you to simply select the name of your desired instrument.
 
 ## Usage
 
-To download, visit the release page and download the file
-"sc-88-pro.reabank". Place the file in a directory of your choice.
+To download, visit the
+[release page](https://github.com/SpeedyVelcro/sc-88-pro-reabank/releases/latest)
+and download the file "sc-88-pro.reabank". Place the file in a
+directory of your choice.
 
 Then, to use it with the ReaControlMIDI plugin:
 - Click the FX button on any track
