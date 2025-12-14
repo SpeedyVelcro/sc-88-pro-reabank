@@ -58,8 +58,8 @@ default out-of-the-box settings on your SoundCanvas.
 
 ## License
 This repo is licensed under the CC0 1.0 license (basically publice
-domain), which you can read in the `LICENSE.md` file
-[here](./LICENSE.md).
+domain), which you can read in the `LICENSE` file
+[here](./LICENSE).
 
 ## Contributing
 Please report any mistakes or errors you find in the issues section.
