@@ -46,8 +46,8 @@ Or, to use it with the MIDI event editor
 If you are unfamiliar with the terminology used in the bank names, I
 would recommend consulting the SC-88 Pro Owner's Manual. But the short
 version is that "Capital Instruments" are the basic 128 "General MIDI"
-instruments, and the "Variation" banks contain all the extra
-instruments defined by the Roland GS standard.
+instruments, and the "Variation" banks contain the supported
+instruments from the extended "GS" standard.
 
 Maps such as the "SC-88 Map" and "SC-55 Map" send the Bank LSB to
 override the setting of the map buttons on the front of your device.
