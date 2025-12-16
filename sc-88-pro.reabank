@@ -17,11 +17,13 @@
 // Drum set instrument numbers are source from the SC-88 Pro Owner's
 // Manual pg. 163. User drum sets are explained on pg. 200.
 //
-// Bank LSB selects map according to SC-88 Pro Owner's Manual pg. 126
-// and pg. 188 as follows:
-// - 0 selects native, but is overridden by buttons on the front-panel
-// - 1 selects SC-55 map
-// - 2 selects SC-88 map
+// Bank LSB selects map according to SC-88 Pro Owner's Manual pg. 126,
+// pg. 127, and pg. 188 as follows:
+// - 0 selects the default map (usually native, but gets overridden by
+//   front buttons)
+// - 1 selects the SC-55 map
+// - 2 selects the SC-88 map
+// - 3 selects the native map
 
 // TODO: Might be worth noting legato-enabled sounds e.g. as
 // "Trumpet (legato)" since for some patches this seems like the only
@@ -428,6 +430,136 @@ Bank 0 2 Capital Instruments (SC-88 Map)
 126 Applause
 127 Gun Shot
 
+Bank 0 3 Capital Instruments (Native Map)
+0 Piano 1
+1 Piano 2
+2 Piano 3
+3 Honky-tonk
+4 E.Piano 1
+5 E.Piano 2
+6 Harpsichord
+7 Clav.
+8 Celesta
+9 Glockenspiel
+10 Music Box
+11 Vibraphone
+12 Marimba
+13 Xylophone
+14 Tubular-bell
+15 Santur
+16 Organ 1
+17 Organ 2
+18 Organ 3
+19 Church Org.1
+20 Reed Organ
+21 Accordion Fr
+22 Harmonica
+23 Bandoneon
+24 Nylon-str.Gt
+25 Steel-str.Gt
+26 Jazz Gt.
+27 Clean Gt.
+28 Muted Gt.
+29 OverdriveGt
+30 DistortionGt
+31 Gt.Harmonics
+32 Acoustic Bs.
+33 Fingered Bs.
+34 Picked Bass
+35 Fretless Bs.
+36 Slap Bass 1
+37 Slap Bass 2
+38 Synth Bass 1
+39 Synth Bass 2
+40 Violin
+41 Viola
+42 Cello
+43 Contrabass
+44 Tremolo Str
+45 PizzicatoStr
+46 Harp
+47 Timpani
+48 Strings
+49 SlowStrings
+50 Syn.Strings1
+51 Syn.Strings2
+52 Choir Aahs
+53 Voice Oohs
+54 SynVox
+55 OrchestraHit
+56 Trumpet
+57 Trombone
+58 Tuba
+59 MutedTrumpet
+60 French Horns
+61 Brass 1
+62 SynthBrass1
+63 SynthBrass 2
+64 Soprano Sax
+65 Alto Sax
+66 Tenor Sax
+67 Baritone Sax
+68 Oboe
+69 English Horn
+70 Bassoon
+71 Clarinet
+72 Piccolo
+73 Flute
+74 Recorder
+75 Pan Flute
+76 Bottle Blow
+77 Shakuhachi
+78 Whistle
+79 Ocarina
+80 Square Wave
+81 Saw Wave
+82 Syn.Calliope
+83 Chiffer Lead
+84 Charang
+85 Solo Vox
+86 5th Saw Wave
+87 Bass & Lead
+88 Fantasia
+89 Warm Pad
+90 Polysynth
+91 Space Voice
+92 Bowed Glass
+93 Metal Pad
+94 Halo Pad
+95 Sweep Pad
+96 Ice Rain
+97 Soundtrack
+98 Crystal
+99 Atmosphere
+100 Brightness
+101 Goblin
+102 Echo Drops
+103 Star Theme
+104 Sitar
+105 Banjo
+106 Shamisen
+107 Koto
+108 Kalimba
+109 Bagpipe
+110 Fiddle
+111 Shanai
+112 Tinkle Bell
+113 Agogo
+114 Steel Drums
+115 Woodblock
+116 Taiko
+117 Melo. Tom 1
+118 Synth Drum
+119 Reverse Cym.
+120 Gt.FretNoise
+121 Breath Noise
+122 Seashore
+123 Bird
+124 Telephone 1
+125 Helicopter
+126 Applause
+127 Gun Shot
+
 // -------------------------- Variation 001 --------------------------
 
 Bank 1 0 Variation 001
@@ -586,6 +718,88 @@ Bank 1 2 Variation 001 (SC-88 Map)
 126 Laughing
 127 Machine Gun
 
+Bank 1 3 Variation 001 (Native Map)
+2 EG+Rhodes 1
+6 Harpsichord2
+8 Pop Celesta
+11 Pop Vibe.
+15 Santur 2
+16 Organ 101
+17 Jazz Organ
+22 Harmonica 2
+26 Mellow Gt.
+27 Clean Half
+28 Muted Dis.Gt
+29 Overdrive 2
+30 Dist. Gt2
+32 Rockabilly
+33 Fingered Bs2
+34 Picked Bass2
+35 Fretless Bs2
+36 Slap Pop
+38 SynthBass101
+39 SynthBass201
+40 Violin Atk
+41 Viola Atk
+42 Cello Atk
+45 Vcs&Cbs Pizz
+48 Bright Str
+49 SlowStrings2
+50 OB Strings
+51 Syn.Strings5
+56 Trumpet 2
+57 Trombone 2
+58 Tuba 2
+60 Fr. Horn 2
+61 Brass ff
+62 JUNO Brass
+63 Soft Brass
+66 Tenor Sax
+67 Bari. Sax
+72 Piccolo
+73 Flute 2
+77 Shakuhachi
+78 Whistle 2
+80 MG Square
+81 OB2 Saw
+82 Vent Synth
+83 TB Lead
+86 Big Fives
+87 Big & Raw
+88 Fantasia 2
+89 Thick Matrix
+90 80's PolySyn
+91 Heaven II
+92 SoftBellPad
+93 Tine Pad
+94 Vox Pad
+95 Polar Pad
+96 Harmo Rain
+97 Ancestral
+98 Syn Mallet
+99 Warm Atmos
+100 Shining Star
+101 Goblinson
+102 Echo Bell
+103 Star Theme 2
+104 Sitar 2
+105 Muted Banjo
+106 Tsugaru
+107 Gu Zheng
+111 Shanai 2
+114 Island Mlt
+116 Small Taiko
+117 Real Tom
+119 Reverse Cym2
+120 Gt.Cut Noise
+121 Fl.Key Click
+122 Rain
+123 Dog
+124 Telephone 2
+125 Car-Engine
+126 Laughing
+127 Machine Gun
+
 // -------------------------- Variation 002 --------------------------
 
 Bank 2 0 Variation 002
@@ -676,6 +890,58 @@ Bank 2 2 Variation 002 (SC-88 Map)
 126 Screaming
 127 Lasergun
 
+Bank 2 3 Variation 002 (Native Map)
+2 EG+Rhodes 2
+17 E.Organ 16+2
+27 Open Hard 1
+28 TC Muted Gt.
+29 Overdrive 3
+30 Dazed Guitar
+33 Jazz Bass
+34 Picked Bass3
+35 Fretless Bs3
+38 CS Bass
+39 Modular Bass
+45 Chamber Pizz
+48 ChamberStr
+50 StackStrings
+51 JUNO Strings
+56 Trumpet
+57 Twin bones
+60 Horn + Orche
+61 Bones Sect.
+62 StackBrass
+63 Warm Brass
+73 Flute Exp.
+80 Hollow Mini
+81 Pulse Saw
+82 Pure PanLead
+86 5th Lead
+87 Fat & Perky
+88 New Age Pad
+89 Horn Pad
+90 Polysynth 2
+91 SC Heaven
+92 JP8 Sqr Pad
+93 Panner Pad
+94 Vox Sweep
+96 African Wood
+97 Prologue
+98 Soft Crystal
+99 Nylon Harp
+100 OB Stab
+101 50's Sci-Fi
+102 Echo Pan
+104 Detune Sitar
+119 Reverse Cym3
+120 String Slap
+122 Thunder
+123 Horse-Gallop
+124 DoorCreaking
+125 Car-Stop
+126 Screaming
+127 Lasergun
+
 // -------------------------- Variation 003 --------------------------
 
 Bank 3 0 Variation 003
@@ -741,6 +1007,44 @@ Bank 3 2 Variation 003 (SC-88 Map)
 126 Punch
 127 Explosion
 
+Bank 3 3 Variation 003 (Native Map)
+27 Open Hard 2
+29 More Drive
+30 Distortion
+33 Jazz Bass 2
+34 Picked Bass4
+35 Fretless Bs4
+38 JP-4 Bass
+39 Seq Bass
+45 St.Pizzicato
+48 Cello Sect.
+50 JP Strings
+60 Wide FreHrns
+62 SH-5 Brass
+73 Flt Travelso
+80 Mellow FM
+81 Feline GR
+86 5th Ana.Clav
+87 JUNO Rave
+88 Bell Heaven
+89 Rotary Strng
+90 Poly King
+92 7thBelPad
+96 Anklung Pad
+97 Prologue 2
+98 Round Glock
+99 Harpvox
+101 Abduction
+102 Echo Pan 2
+104 Sitar 3
+120 Gt.CutNoise2
+122 Wind
+123 Bird 2
+124 Door
+125 Car-Pass
+126 Punch
+127 Explosion
+
 // -------------------------- Variation 004 --------------------------
 
 Bank 4 0 Variation 004
@@ -790,6 +1094,32 @@ Bank 4 2 Variation 004 (SC-88 Map)
 125 Car-Crash
 126 Heart Beat
 
+Bank 4 3 Variation 004 (Native Map)
+27 JC Clean Gt.
+30 Dist.Fast
+33 Rock Bass
+35 Syn Fretless
+38 JP-8 Bass
+39 MG Bass
+62 MKS Brass
+80 CC Solo
+81 Big Lead
+87 JP8 BsLead 1
+89 OB Soft Pad
+96 Rattle Pad
+97 Hols Strings
+98 Loud Glock
+99 HollowReleas
+101 Auhbient
+102 Big Panner
+120 Dist.CutNoiz
+122 Stream
+123 Kitty
+124 Scratch
+125 Car-Crash
+126 Heart Beat
+127 Eruption
+
 // -------------------------- Variation 005 --------------------------
 
 Bank 5 0 Variation 005
@@ -831,6 +1161,25 @@ Bank 5 2 Variation 005 (SC-88 Map)
 125 Siren
 126 Footsteps
 
+Bank 5 3 Variation 005 (Native Map)
+35 Mr.Smooth
+38 P5 Bass
+39 Mg Oct Bass 1
+80 Shmoog
+81 Velo Lead
+87 JP8 BsLead 2
+98 GlockenChime
+99 Nylon+Rhodes
+101 LFO Pad
+102 Reso Panner
+120 Bass Slide
+122 Bubble
+123 Growl
+124 Wind Chimes
+125 Siren
+126 Footsteps
+127 Big Shot
+
 // -------------------------- Variation 006 --------------------------
 
 Bank 6 0 Variation 006
@@ -861,6 +1210,21 @@ Bank 6 2 Variation 006 (SC-88 Map)
 125 Train
 126 Applause 2
 
+Bank 6 3 Variation 006 (Native Map)
+38 JPMG Bass
+39 MG Oct Bass2
+80 LM Square
+81 GR-300
+87 SH-5 Bs.Lead
+98 Clear Bells
+99 Ambient Pad
+101 Random Str
+102 Water Piano
+120 Pick Scrape
+122 Wind 2
+125 Train
+126 Applause 2
+
 // -------------------------- Variation 007 --------------------------
 
 Bank 7 0 Variation 007
@@ -881,6 +1245,16 @@ Bank 7 2 Variation 007 (SC-88 Map)
 98 X'mas Bell
 124 Scratch 2
 125 Jetplane
+
+Bank 7 3 Variation 007 (Native Map)
+39 MG Blip Bs
+81 LA Saw
+98 ChristmasBel
+99 Invisible
+101 Random Pad
+124 Scratch 2
+125 Jetplane
+126 Small Club
 
 // -------------------------- Variation 008 --------------------------
 
@@ -1088,6 +1462,106 @@ Bank 8 2 Variation 008 (SC-88 Map)
 119 Rev.Snare 1
 125 Starship
 
+Bank 8 3 Variation 008 (Native Map)
+0 Piano 1w
+1 Piano 2w
+2 Piano 3w
+3 Honky-tonk 2
+4 St.Soft EP
+5 Detuned EP 2
+6 Coupled Hps.
+7 Comp Clav.
+11 Vibraphone w
+12 Marimba w
+14 Church Bell
+15 Cimbalom
+16 Trem. Organ
+17 Chorus Or.2
+18 Rotary Org.
+19 Church Org.2
+20 Wind Organ
+21 Accordion It
+24 Ukulele
+25 12-str.Gt
+26 Pedal Steel
+27 Chorus Gt.
+28 Funk Pop
+29 LP OverDrvGt
+30 Feedback Gt.
+31 Gt. Feedback
+32 Wild A.Bass
+33 ChorusJazzBs
+34 Muted PickBs
+35 Wood+FlessBs
+36 Reso Slap
+37 FM Slap
+38 Acid Bass
+39 Beef FM Bass
+40 Slow Violin
+44 Slow Tremolo
+45 Solo Pizz.
+48 Orchestra
+49 Legato Str.
+50 Syn.Strings3
+51 Air Strings
+52 St.ChoirAahs
+53 Voice Dahs
+54 Syn.Voice
+55 Impact Hit
+56 Flugel Horn
+57 Bs. Trombone
+59 Muted Horns
+60 F.Hrn Slow
+61 Brass 2
+62 Pro Brass
+63 SynBrass sfz
+64 SopranoExp.
+65 AltoSax Exp.
+66 BreathyTn.
+68 Oboe Exp.
+71 Bs Clarinet
+72 Nay
+73 Flute + Vln
+75 Kawala
+80 2600 Sine
+81 Doctor Solo
+83 Mad Lead
+84 Dist.Lead
+85 Vox Lead
+86 4th Lead
+89 Octave Pad
+90 Power Stack
+91 Cosmic Voice
+94 Horror Pad
+95 Converge
+96 Clavi Pad
+97 Rave
+98 Vibra Bells
+99 Pulsey Key
+100 Org Bell
+101 LowBirds Pad
+102 Pan Sequence
+103 Dream Pad
+104 Tambra
+105 Rabab
+106 Syn Shamisen
+107 Taisho Koto
+108 Sanza
+109 Didgeridoo
+110 Er Hu
+111 Pungi
+112 Bonang
+113 Atarigane
+115 Castanets
+116 Concert BD
+117 Melo. Tom 2
+118 808 Tom
+119 Rev.Snare 1
+120 Gt. FX Menu
+124 ScratchKey
+125 Starship
+126 ApplauseWave
+
 // -------------------------- Variation 009 --------------------------
 
 Bank 9 0 Variation 009
@@ -1167,6 +1641,57 @@ Bank 9 2 Variation 009 (SC-88 Map)
 119 Rev.Snare 2
 125 Burst Noise
 
+Bank 9 3 Variation 009 (Native Map)
+4 Cho.E.Piano
+14 Carillon
+16 Organ.o
+17 Octave Organ
+21 Dist. Accord
+25 Nylon+Steel
+27 JC Chorus Gt
+29 LP OverDrv
+30 Feedback Gt2
+31 Gt.Feedback2
+36 Unison Slap
+38 TB303 Bass
+39 Dly Bass
+44 Suspense Str
+48 Orchestra 2
+49 Warm Strings
+50 Syn.Strings4
+52 Melted Choir
+54 Silent Night
+55 Philly Hit
+60 Dual Horns
+61 Brass 3
+62 P5 Brass
+63 OB Brass
+65 Grow Sax
+66 St.Tenor Sax
+72 Nay Tremolo
+80 Sine Lead
+81 Fat Saw Lead
+84 Acid Guitar1
+85 LFO Vox
+89 Stack Pad
+90 Octave Stack
+91 Auh Vox
+95 Shwimmer
+98 Digi Bells
+99 Noise Piano
+101 Falling Down
+102 Aqua
+103 Silky Pad
+105 San Xian
+110 Gao Hu
+112 Gender
+117 Rock Tom
+118 Elec Perc
+119 Rev.Snare 2
+120 Bartok Pizz.
+124 TapeRewind
+125 Burst Noise
+
 // -------------------------- Variation 010 --------------------------
 
 Bank 10 0 Variation 010
@@ -1200,6 +1725,29 @@ Bank 10 2 Variation 010 (SC-88 Map)
 95 CelestialPd
 112 GamelanGong
 
+Bank 10 3 Variation 010 (Native Map)
+4 SilentRhodes
+38 Tekno Bass
+39 X Wire Bass
+48 Tremolo Orch
+49 St.Slow Str.
+52 Church Choir
+55 Double Hit
+61 Brass sfz
+63 Reso Brass
+80 KG Lead
+84 Acid Guitar2
+90 Reso Stack
+91 AuhAuh
+95 Celestial Pd
+98 Music Bell
+101 LFO RAVE
+112 Gamelan Gong
+118 Sine Perc.
+120 Guitar Slap
+124 Phono Noise
+125 Calculating
+
 // -------------------------- Variation 011 --------------------------
 
 Bank 11 0 Variation 011
@@ -1223,9 +1771,36 @@ Bank 11 2 Variation 011 (SC-88 Map)
 48 Choir Str.
 112 St.Gamelan
 
+Bank 11 3 Variation 011 (Native Map)
+38 TB303 Bass 2
+39 WireStr Bss
+48 Choir Str.
+55 Perc.Hit
+81 D-50 Fat Saw
+90 Techno Stack
+91 Vocoderman
+95 Bag Sweep
+98 Analog Bell
+101 LFO Horror
+112 St.Gamelan
+118 606 Tom
+120 Chord Stroke
+124 MC-500 Beep
+125 Perc. Bang
+
 // -------------------------- Variation 012 --------------------------
 
 Bank 12 0 Variation 012
+38 Kicked TB303
+39 Blip Bass
+48 Strings+Horn
+55 Shock Wave
+101 LFO Techno
+112 Jang-Gu
+118 909 Tom
+120 Biwa Stroke
+
+Bank 12 3 Variation 012 (Native Map)
 38 Kicked TB303
 39 Blip Bass
 48 Strings+Horn
@@ -1243,15 +1818,29 @@ Bank 13 0 Variation 013
 101 Alternative
 120 Biwa Tremolo
 
+Bank 13 3 Variation 013 (Native Map)
+38 TB303 Saw Bs
+39 RubberBass 1
+101 Alternative
+120 Biwa Tremolo
+
 // -------------------------- Variation 014 --------------------------
 
 Bank 14 0 Variation 014
 38 Rubber303 Bs
 101 UFO FX
 
+Bank 14 3 Variation 014 (Native Map)
+38 Rubber303 Bs
+101 UFO FX
+
 // -------------------------- Variation 015 --------------------------
 
 Bank 15 0 Variation 015
+38 Reso 303 Bs
+101 Gargle Man
+
+Bank 15 3 Variation 015 (Native Map)
 38 Reso 303 Bs
 101 Gargle Man
 
@@ -1363,6 +1952,67 @@ Bank 16 2 Variation 016 (SC-88 Map)
 112 RAMA Cymbal
 119 Rev.Kick 1
 
+Bank 16 3 Variation 016 (Native Map)
+0 European Pf
+1 Dance Piano
+4 FM+SA EP
+5 St.FM EP
+6 Harpsi.w
+7 Reso Clav.
+12 Barafon
+15 Zither 1
+16 60's Organ 1
+17 Rotary Org.S
+19 Church Org.3
+21 Cho. Accord
+24 Nylon Gt.o
+25 Mandolin
+27 TC FrontPick
+28 Funk Gt.2
+30 Power Guitar
+31 Ac.Gt.Harmnx
+32 Bass + OHH
+33 F.Bass/Harm.
+34 P.Bass/Harm.
+38 Reso SH Bass
+39 RubberBass 2
+45 Solo Spic.
+46 Synth Harp
+48 St. Strings
+50 High Strings
+52 Choir Hahs
+54 VP330 Choir
+55 Lo Fi Rave
+56 4th Trumpets
+60 Synth Horn
+61 Brass Fall
+62 Oct SynBrass
+63 Velo Brass 1
+65 AltoSax + Tp
+68 Multi Reed
+71 Multi Wind
+72 Di
+73 Tron Flute
+75 Zampona
+80 P5 Square
+81 Waspy Synth
+84 P5 Sync Lead
+98 Choral Bells
+101 Sweep FX
+103 New Century
+104 Tamboura
+105 Gopichant
+107 Kanoon
+111 Hichiriki
+112 RAMA Cymbal
+113 Tambourine
+115 Angklung
+116 Jungle BD
+117 Rash SD
+119 Rev.Kick 1
+122 Pink Noise
+126 Voice One
+
 // -------------------------- Variation 017 --------------------------
 
 Bank 17 0 Variation 017
@@ -1404,6 +2054,36 @@ Bank 17 2 Variation 017 (SC-88 Map)
 98 Air Bells
 119 Rev.ConBD
 
+Bank 17 3 Variation 017 (Native Map)
+4 Dist E.Piano
+12 Barafon 2
+15 Zither 2
+16 60's Organ 2
+17 Rock Organ 1
+25 Madolin 2
+27 TC Rear Pick
+30 Power Gt.2
+38 303 Sqr Bs
+39 SH101 Bass 1
+50 Hybrid Str.
+54 Vinyl Choir
+55 Techno Hit
+61 Trumpet Fall
+62 Hybrid Brass
+63 Transbrass
+75 Zampona Atk
+80 OB Square
+81 PM Lead
+84 Fat Sync Lead
+98 Air Bells
+103 7th Atmos.
+115 Angkl Rhythm
+116 Techno BD
+117 House SD
+119 Rev.ConBD
+122 White Noise
+126 Voice Two
+
 // -------------------------- Variation 018 --------------------------
 
 Bank 18 0 Variation 018
@@ -1430,6 +2110,24 @@ Bank 18 2 Variation 018 (SC-88 Map)
 39 SH101Bass 2
 98 Bell Harp
 
+Bank 18 3 Variation 018 (Native Map)
+16 60's Organ 3
+17 Rock Organ 2
+25 MandolinTrem
+27 TC Clean ff
+30 5th Dist.
+38 TB303 DistBs
+39 SH101 Bass 2
+55 Dist.Hit
+80 JP-8 Square
+81 CS Saw Lead
+84 Rock Lead
+98 Bell Harp
+103 Galaxy Way
+116 Bounce
+117 Jungle SD
+126 Voice Three
+
 // -------------------------- Variation 019 --------------------------
 
 Bank 19 0 Variation 019
@@ -1447,9 +2145,27 @@ Bank 19 2 Variation 019 (SC-88 Map)
 39 Smooth Bass
 98 Gamelimba
 
+Bank 19 3 Variation 019 (Native Map)
+16 Farf Organ
+27 TC Clean 2
+39 Smooth Bass
+55 Bam Hit
+84 5th DecaSync
+98 Gamelimba
+107 Kanoon+Choir
+117 909 SD
+126 Voice Tah
+
 // -------------------------- Variation 020 --------------------------
 
 Bank 20 0 Variation 020
+39 SH101 Bass 3
+55 Bit Hit
+84 Dirty Sync
+98 JUNO Bell
+126 Voice Whey
+
+Bank 20 3 Variation 020 (Native Map)
 39 SH101 Bass 3
 55 Bit Hit
 84 Dirty Sync
@@ -1462,18 +2178,29 @@ Bank 21 0 Variation 021
 39 Spike Bass
 55 Bim Hit
 
+Bank 21 3 Variation 021 (Native Map)
+39 Spike Bass
+55 Bim Hit
+
 // -------------------------- Variation 022 --------------------------
 
-Bank 22 Variation 022
+Bank 22 0 Variation 022
+39 House Bass
+55 Technorg Hit
+
+Bank 22 3 Variation 022 (Native Map)
 39 House Bass
 55 Technorg Hit
 
 // -------------------------- Variation 023 --------------------------
 
-Bank 23 Variation 023
+Bank 23 0 Variation 023
 39 KG Bass
 55 Rave Hit
 
+Bank 23 3 Variation 023 (Native Map)
+39 KG Bass
+55 Rave Hit
 // -------------------------- Variation 024 --------------------------
 
 Bank 24 0 Variation 024
@@ -1528,6 +2255,38 @@ Bank 24 2 Variation 024 (SC-88 Map)
 105 Oud
 119 Rev.Tom 1
 
+Bank 24 3 Variation 024 (Native Map)
+0 Piano + Str.
+4 Wurly
+5 Hard FM EP
+6 Harpsi.o
+12 Log drum
+15 Dulcimer
+16 Cheese Organ
+17 Rotary Org.F
+19 Organ Flute
+21 Hard Accord
+24 Velo Harmnix
+30 Rock Rhythm
+31 E.Bass Harm.
+38 Arpeggio Bs
+39 Sync Bass
+48 Velo Strings
+50 Tron Strings
+52 Choir Lahs
+55 Strings Hit
+56 Bright Tp.
+60 F.Horn Rip
+61 Octave Brass
+80 Pulse Lead
+81 MG Saw 1
+84 JUNO Sub Osc
+105 Oud
+107 Oct Harp
+111 Mizmar
+115 Finger Snaps
+119 Rev.Tom 1
+
 // -------------------------- Variation 025 --------------------------
 
 Bank 25 0 Variation 025
@@ -1550,6 +2309,20 @@ Bank 25 2 Variation 025 (SC-88 Map)
 56 Warm Tp.
 119 Rev.Tom 2
 
+Bank 25 3 Variation 025 (Native Map)
+4 Hard Rhodes
+16 D-50 Organ
+21 Soft Accord
+30 Rock Rhythm2
+39 MG 5th Bass
+50 Noiz Strings
+55 Stack Hit
+56 Warm Tp.
+61 Brass + Reed
+80 JP8 PulseLd1
+81 MG Saw 2
+119 Rev.Tom 2
+
 // -------------------------- Variation 026 --------------------------
 
 Bank 26 0 Variation 026
@@ -1562,6 +2335,13 @@ Bank 26 0 Variation 026
 Bank 26 2 Variation 026 (SC-88 Map)
 4 MellwRhodes
 
+Bank 26 3 Variation 026 (Native Map)
+4 MellowRhodes
+16 JUNO Organ
+39 RND Bass
+80 JP8 PulseLd2
+81 OB Saw 1
+
 // -------------------------- Variation 027 --------------------------
 
 Bank 27 0 Variation 027
@@ -1570,9 +2350,21 @@ Bank 27 0 Variation 027
 80 MG Reso. Pls
 81 OB Saw 2
 
+Bank 27 3 Variation 027 (Native Map)
+16 Hybrid Organ
+39 WowMG Bass
+80 MG Reso. Pls
+81 OB Saw 2
+
 // -------------------------- Variation 028 --------------------------
 
-Bank 28 Variation 028
+Bank 28 0 Variation 028
+16 VS Organ
+39 Bubble Bass
+81 D-50 Saw
+105 Oud+Strings
+
+Bank 28 3 Variation 028 (Native Map)
 16 VS Organ
 39 Bubble Bass
 81 D-50 Saw
@@ -1580,18 +2372,28 @@ Bank 28 Variation 028
 
 // -------------------------- Variation 029 --------------------------
 
-Bank 29 Variation 029
+Bank 29 0 Variation 029
+16 Digi Church
+81 SH-101 Saw
+
+Bank 29 3 Variation 029 (Native Map)
 16 Digi Church
 81 SH-101 Saw
 
 // -------------------------- Variation 030 --------------------------
 
-Bank 30 Variation 030
+Bank 30 0 Variation 030
+81 CS Saw
+
+Bank 30 3 Variation 030 (Native Map)
 81 CS Saw
 
 // -------------------------- Variation 031 --------------------------
 
-Bank 31 Variation 031
+Bank 31 0 Variation 031
+81 MG Saw Lead
+
+Bank 31 3 Variation 031 (Native Map)
 81 MG Saw Lead
 
 // -------------------------- Variation 032 --------------------------
@@ -1626,6 +2428,22 @@ Bank 32 2 Variation 032 (SC-88 Map)
 25 Steel Gt.2
 52 ChoirAahs 2
 
+Bank 32 3 Variation 032 (Native Map)
+6 Synth Harpsi
+7 Analog Clav.
+16 70's E.Organ
+17 Perc.Organ
+19 Trem.Flute
+24 Nylon Gt 2
+25 Steel Gt.2
+48 Oct Strings1
+52 Chorus Aahs
+56 Syn. Trumpet
+81 OB Saw Lead
+105 Pi Pa
+111 Suona 1
+115 909 HandClap
+
 // -------------------------- Variation 033 --------------------------
 
 Bank 33 0 Variation 033
@@ -1640,14 +2458,30 @@ Bank 33 0 Variation 033
 Bank 33 2 Variation 033 (SC-88 Map)
 16 Even Bar
 
+Bank 33 3 Variation 033 (Native Map)
+7 JP8 Clav. 1
+16 Even Bar
+19 Theater Org.
+48 Oc Strings2
+52 Male Aah+Str
+81 P5 Saw Lead
+111 Suona 2
+
 // -------------------------- Variation 034 --------------------------
 
-Bank 34 Variation 034
+Bank 34 0 Variation 034
+81 MG Unison
+
+Bank 34 3 Variation 034 (Native Map)
 81 MG Unison
 
 // -------------------------- Variation 035 --------------------------
 
 Bank 35 0 Variation 035
+7 JP8 Clav. 2
+81 Oct Saw Lead
+
+Bank 35 3 Variation 035 (Native Map)
 7 JP8 Clav. 2
 81 Oct Saw Lead
 
@@ -1662,9 +2496,17 @@ Bank 40 2 Variation 040 (SC-88 Map)
 16 Organ Bass
 24 Lequint Gt.
 
+Bank 40 3 Variation 040 (Native Map)
+16 Organ Bass
+24 Lequint Gt.
+81 SequenceSaw1
+
 // -------------------------- Variation 041 --------------------------
 
 Bank 41 0 Variation 041
+81 SequenceSaw2
+
+Bank 41 3 Variation 041 (Native Map)
 81 SequenceSaw2
 
 // -------------------------- Variation 042 --------------------------
@@ -1672,9 +2514,15 @@ Bank 41 0 Variation 041
 Bank 42 0 Variation 042
 81 Reso Saw
 
+Bank 42 3 Variation 042 (Native Map)
+81 Reso Saw
+
 // -------------------------- Variation 043 --------------------------
 
 Bank 43 0 Variation 043
+81 Cheese Saw 1
+
+Bank 43 3 Variation 043 (Native Map)
 81 Cheese Saw 1
 
 // -------------------------- Variation 044 --------------------------
@@ -1682,14 +2530,23 @@ Bank 43 0 Variation 043
 Bank 44 0 Variation 044
 81 Cheese Saw 2
 
+Bank 44 3 Variation 044 (Native Map)
+81 Cheese Saw 2
+
 // -------------------------- Variation 045 --------------------------
 
 Bank 45 0 Variation 045
 81 Rhythmic Saw
 
+Bank 45 3 Variation 045 (Native Map)
+81 Rhythmic Saw
+
 // -------------------------- Variation 048 --------------------------
 
 Bank 48 0 Variation 048
+16 5th Organ
+
+Bank 48 3 Variation 048 (Native Map)
 16 5th Organ
 
 // ---------------------------- Drum Sets ----------------------------
@@ -1753,11 +2610,37 @@ Bank 0 2 Drum Sets (SC-88 Map)
 64 User Drum Set 1
 65 User Drum Set 2
 
+Bank 0 3 Drum Sets (Native Map)
+0 STANDARD 1
+1 STANDARD 2
+2 STANDARD 3
+8 ROOM
+9 HIP HOP
+10 JUNGLE
+11 TECHNO
+16 POWER
+24 ELECTRONIC
+25 TR-808
+26 DANCE
+27 CR-78
+28 TR-606
+29 TR-707
+30 TR-909
+32 JAZZ
+40 BRUSH
+48 ORCHESTRA
+49 ETHNIC
+50 KICK & SNARE
+52 ASIA
+53 CYMBAL&CLAPS
+56 SFX
+57 RHYTHM FX
+58 RHYTHM FX 2
+64 User Drum Set 1
+65 User Drum Set 2
+
 // TODO: User sounds (called "User Tones" according to pg. 126, use
 // bank MSB 064H and 065H)
-
-// TODO: Bank LSB 03H (Native Map), this forces the native map even if
-// the the SC-55 or SC-88 MAP buttons are selected (pg. 127)
 
 // TODO: CM-64 map
 
