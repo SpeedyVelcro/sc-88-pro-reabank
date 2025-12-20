@@ -34,7 +34,7 @@ Or, to use it with the MIDI event editor
 - Open the MIDI editor for a MIDI item
 - Select "Bank/Program Select" in the dropdown in the bottom left of
   the screen
-- Your MIDI Event lane will no display Bank/Program Select events
+- Your MIDI Event lane will now display Bank/Program Select events
 - Double click on the MIDI Event lane at the spot where you want to
   insert an instrument change
 - Click "Load File"
