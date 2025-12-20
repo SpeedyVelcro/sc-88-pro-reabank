@@ -57,7 +57,7 @@ channel. Typically this is used only on channel 10 if you're using the
 default out-of-the-box settings on your SoundCanvas.
 
 ## License
-This repo is licensed under the CC0 1.0 license (basically publice
+This repo is licensed under the CC0 1.0 license (basically public
 domain), which you can read in the `LICENSE` file
 [here](./LICENSE).
 
