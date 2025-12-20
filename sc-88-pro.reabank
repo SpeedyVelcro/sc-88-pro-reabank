@@ -1,4 +1,4 @@
-// SC-88 Pro Reabank File v0.3.0
+// SC-88 Pro Reabank File v0.4.0
 // Obtained from https://github.com/SpeedyVelcro/sc-88-pro-reabank
 // This file is licensed under CC0 1.0
 // You can read the license at https://creativecommons.org/publicdomain/zero/1.0/
@@ -31,6 +31,8 @@
 // therefore function the same for user instruments, they are still all
 // provided by this reabank so that the event lane displays the
 // instrument names correctly.
+//
+// CM-64 maps are sourced from the SC-88 Pro Owner's Manual pg. 162
 
 // TODO: Might be worth noting legato-enabled sounds e.g. as
 // "Trumpet (legato)" since for some patches this seems like the only
@@ -3428,5 +3430,201 @@ Bank 65 3 User Instruments (Bank 65) (Native Map)
 126 User Instrument 127
 127 User Instrument 128
 
-// TODO: CM-64 map
+// ------------------------------ CM-64 ------------------------------
+
+Bank 126 1 SC-55 Map (CM-64 Sound Map) (Bank 126)
+0 Piano 2
+1 Piano 2
+2 Piano 2
+3 Honky-tonk
+4 Piano 1
+5 Piano 2
+6 Piano 2
+7 E.Piano 1
+8 Detuned EP1
+9 E.Piano 2
+10 Steel Gt.
+11 Steel Gt.
+12 12-str. Gt
+13 Funk Gt.
+14 Muted Gt.
+15 Slap Bass 1
+16 Slap Bass 1
+17 Slap Bass 1
+18 Slap Bass 1
+19 Slap Bass 2
+20 Slap Bass 2
+21 Slap Bass 2
+22 Slap Bass 2
+23 Fingered Bs
+24 Fingered Bs
+25 Picked Bass
+26 Picked Bass
+27 Fretless Bs
+28 Acoustic Bs
+29 Choir Aahs
+30 Choir Aahs
+31 Choir Aahs
+32 Choir Aahs
+33 SlowStrings
+34 Strings
+35 SynStrings3
+36 SynStrings3
+37 Organ 1
+38 Organ 1
+39 Organ 1
+40 Organ 2
+41 Organ 1
+42 Organ 1
+43 Organ 2
+44 Organ 2
+45 Organ 2
+46 Trumpet
+47 Trumpet
+48 Trombone
+49 Trombone
+50 Trombone
+51 Trombone
+52 Trombone
+53 Trombone
+54 Alto Sax
+55 Tenor Sax
+56 BaritoneSax
+57 Alto Sax
+58 Brass 1
+59 Brass 1
+60 Brass 2
+61 Brass 2
+62 Brass 1
+64 Orchest.Hit
+
+Bank 127 1 SC-55 Map (CM-64 Sound Map) (Bank 127)
+0 Acou Piano1
+1 Acou Piano2
+2 Acou Piano3
+3 Elec Piano1
+4 Elec Piano2
+5 Elec Piano3
+6 Elec Piano4
+7 Honkytonk
+8 Elec Org 1
+9 Elec Org 2
+10 Elec Org 3
+11 Elec Org 4
+12 Pipe Org 1
+13 Pipe Org 2
+14 Pipe Org 3
+15 Accordion
+16 Harpsi 1
+17 Harpsi 2
+18 Harpsi 3
+19 Clavi 1
+20 Clavi 2
+21 Clavi 3
+22 Celesta 1
+23 Celesta 2
+24 Syn Brass 1
+25 Syn Brass 2
+26 Syn Brass 3
+27 Syn Brass 4
+28 Syn Bass 1
+29 Syn Bass 2
+30 Syn Bass 3
+31 Syn Bass 4
+32 Fantasy
+33 Harmo Pan
+34 Chorale
+35 Glasses
+36 Soundtrack
+37 Atmospher
+38 Warm Bell
+39 Funny Vox
+40 Echo Bell
+41 Ice Rain
+42 Oboe 2001
+43 Echo Pan
+44 Doctor Solo
+45 School Daze
+46 Bellsinger
+47 Square Wave
+48 Str Sect 1
+49 Str Sect 2
+50 Str Sect 3
+51 Pizzicato
+52 Violin 1
+53 Violin 2
+54 Cello 1
+55 Cello 2
+56 Contrabass
+57 Harp 1
+58 Harp 2
+59 Guitar 1
+60 Guitar 2
+61 Elec Gtr 1
+62 Elec Gtr 2
+63 Sitar
+64 Acou Bass 1
+65 Acou Bass 2
+66 Elec Bass 1
+67 Elec Bass 2
+68 Slap Bass 1
+69 Slap Bass 2
+70 Fretless 1
+71 Fretless 2
+72 Flute 1
+73 Flute 2
+74 Piccolo 1
+75 Piccolo 2
+76 Recorder
+77 Pan Pipes
+78 Sax 1
+79 Sax 2
+80 Sax 3
+81 Sax 4
+82 Clarinet 1
+83 Clarinet 2
+84 Oboe
+85 Engl Horn
+86 Bassoon
+87 Harmonica
+88 Trumpet 1
+89 Trumpet 2
+90 Trombone 1
+91 Trombone 2
+92 Fr Horn 1
+93 Fr Horn 2
+94 Tuba
+95 Brs Sect 1
+96 Brs Sect 2
+97 Vibe 1
+98 Vibe 2
+99 Syn Mallet
+100 Windbell
+101 Glock
+102 Tube Bell
+103 Xylophone
+104 Marimba
+105 Koto
+106 Sho
+107 Shakuhachi
+108 Whistle 1
+109 Whistle 2
+110 Bottleblow
+111 Breathpipe
+112 Timpani
+113 Melodic Tom
+114 Deep Snare
+115 Elec Perc 1
+116 Elec Perc 2
+117 Taiko
+118 Taiko Rim
+119 Cymbal
+120 Castanets
+121 Triangle
+122 Orche Hit
+123 Telephone
+124 Bird Tweet
+125 OneNote Jam
+126 Water Bell
+127 Jungle Tune
 
