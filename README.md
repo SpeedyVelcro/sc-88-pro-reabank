@@ -69,11 +69,6 @@ Feel free to open PRs too, and I'll take a look at them.
 While this reabank contains all the instruments and variations for the
 default, SC-88 and SC-55 maps, there are still a few more slightly more
 obscure banks to be added, as well as a couple changes I want to make:
-- CM-64 map
-- Native map (the default map of LSB 0 uses native sounds by default,
-  but LSB 3 allows you to override the map buttons on the front of the
-  device)
-- User instruments
 - Adding "(legato)" to the names of applicable instruments (this is
   important because sometimes the legato feature is the only thing
   distinguishing identically-named instruments)
