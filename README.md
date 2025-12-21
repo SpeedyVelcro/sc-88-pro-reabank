@@ -65,11 +65,3 @@ domain), which you can read in the `LICENSE` file
 Please report any mistakes or errors you find in the issues section.
 Feel free to open PRs too, and I'll take a look at them.
 
-## Roadmap
-While this reabank contains all the instruments and variations for the
-default, SC-88 and SC-55 maps, there are still a few more slightly more
-obscure banks to be added, as well as a couple changes I want to make:
-- Adding "(legato)" to the names of applicable instruments (this is
-  important because sometimes the legato feature is the only thing
-  distinguishing identically-named instruments)
-
