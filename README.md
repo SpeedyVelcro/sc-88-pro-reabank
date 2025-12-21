@@ -49,8 +49,12 @@ version is that "Capital Instruments" are the basic 128 "General MIDI"
 instruments, and the "Variation" banks contain the supported
 instruments from the extended "GS" standard.
 
-Maps such as the "SC-88 Map" and "SC-55 Map" send the Bank LSB to
-override the setting of the map buttons on the front of your device.
+Banks marked "SC-88 Map", "SC-55 Map" and "Native Map" send the Bank LSB
+to override the setting of the map buttons on the front of your device.
+The banks that don't have a map marked in brackets send Bank LSB 0,
+which just uses whatever map your device is currently set to (usually
+the native map). If the behaviour is confusing to you I would recommend
+consulting pages 127 and 188 of the SC-88 Pro Owner's Manual.
 
 The "Drum Sets" bank contains all the instruments for your drum
 channel. Typically this is used only on channel 10 if you're using the
